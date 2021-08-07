@@ -2,6 +2,9 @@
   "name": "nft-marketplace",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0 <14.17.4"
+  },
   "scripts": {
     "dev": "NETWORK=local next dev",
     "dev:mumbai": "NETWORK=mumbai next dev",
