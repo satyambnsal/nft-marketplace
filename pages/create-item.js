@@ -54,7 +54,7 @@ export default function CreateItem() {
 
   async function createSale(url) {
     const web3Modal = new Web3Modal({
-      network: 'mainnet',
+      // network: 'mumbai',
       cacheProvider: true,
       providerOptions: {},
     });

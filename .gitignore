@@ -2,8 +2,10 @@
 
 .secret
 .infuraid
-config.js
-
+.env
+.env.development
+.env.production
+.env.local
 # dependencies
 /node_modules
 /.pnp

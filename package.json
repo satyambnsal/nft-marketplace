@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NETWORK=local next dev",
+    "dev:mumbai": "NETWORK=mumbai next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -13,6 +14,10 @@
   "author": {
     "name": "Satyam Bansal",
     "url": "https://www.satyambnsal.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satyambnsal/nft-marketplace"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
