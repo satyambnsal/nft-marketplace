@@ -1,10 +1,15 @@
 import '../styles/globals.css';
 import Link from 'next/link';
+import Head from 'next/head';
+
 import { MATIC_FAUCET_URL, POLYGON_SCAN_MUMABI_URL } from '../config';
 
 function Marketplace({ Component, pageProps }) {
   return (
     <div>
+      <Head>
+        <title>NFT Marketplace</title>
+      </Head>
       <nav className="border-b p-6">
         <p className="text-4xl font-bold">NFT Marketplace</p>
         <div className="flex mt-4">
