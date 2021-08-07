@@ -53,7 +53,11 @@ export default function CreateItem() {
   }
 
   async function createSale(url) {
-    const web3Modal = new Web3Modal();
+    const web3Modal = new Web3Modal({
+      network: 'mainnet',
+      cacheProvider: true,
+      providerOptions: {},
+    });
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
@@ -109,7 +113,8 @@ export default function CreateItem() {
           <Image
             alt="image file"
             className="rounded mt-4"
-            width="350"
+            width={400}
+            height={400}
             src={fileUrl}
           />
         )}
