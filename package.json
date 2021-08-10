@@ -23,12 +23,15 @@
     "url": "https://github.com/satyambnsal/nft-marketplace"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.0",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.2.0",
+    "@tailwindcss/ui": "^0.7.2",
     "axios": "^0.21.1",
     "chai": "^4.3.4",
     "classnames": "^2.3.1",
+    "daisyui": "^1.11.0",
     "electron": "^13.1.8",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.4.1",
